@@ -10,7 +10,7 @@
 
 }
 
-a {
+a,h1,h2,h3,h4,h5,h6,label{
 
 	color: white;
 
@@ -93,11 +93,17 @@ body{
 	
 
 }
+
+h2{
+
+
+	font-size: 50px;
+
+}
 .jouer{
 
 	color: white;
 	padding-top: 700px;
-	font-size: 50px;
 	padding-bottom: 75px;
 
 }
@@ -132,15 +138,14 @@ body{
 
 }
 
-.article1{
+.articles{
 
 	color: white;
 	border-radius: 10px;
 	background-color: #2E2E2E ;
-	width: 25%;
-	height: 50%;
+	width: 50%;
+	height: 25%;
 	text-align: justify;
-	box-shadow: 10px 5px 5px #232323;
 	padding: 20px;
 	margin: 10px;
 
@@ -154,3 +159,38 @@ hr{
 	padding: auto;
 
 }
+
+.artR{
+
+	border-radius: 10px;
+	background-color: #2E2E2E ;
+	width: 50%;
+	height: 25%;
+	text-align: justify;
+	padding: 20px;
+	margin: 10px;
+
+}
+
+.conteneurDArticles{
+
+	display: flex;
+
+}
+
+.miseArtR{
+
+	margin-left: auto;
+	margin-right: 0;
+
+}
+
+.face{
+
+	flex: 5;
+
+}
+
+.face:first-child {
+    margin-right: 500px;
+} 
