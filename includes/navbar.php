@@ -2,7 +2,7 @@
 <nav>
 
 	<ul>
-		<h1 class="title">Exellia</h1>
+		
 		<li>
 
 			<a href="#">ACCUEIL</a>

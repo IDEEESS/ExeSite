@@ -18,7 +18,7 @@ a {
 
 .navbar{
 
-	background-color: #1F1F1F ;
+	background-color: #2E2E2E ;
 	width: 100%;
 	height: 100%;
 
@@ -47,9 +47,10 @@ li{
 
 li:hover{
 
-	transition-duration: 0.25s;
-	background-color: #525252;
-
+	transition-duration: 0.125s;
+	background-color: #434343;
+	border-radius: 10px;
+	text-decoration: underline #1C394F;
 
 }
 
@@ -63,27 +64,39 @@ li:hover{
 
 .header{
 
-	background-image: url("img/background.png");
+	background-image: linear-gradient(rgba(255,255,255,0.25), rgba(0,0,0,0.25)),url("img/background.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-color: black;
-	opacity: 0.75;
 	color: white;
 
 	width: 100%;
-	height: 100%;
+	height: 75%;
 
 	justify-content: center;
 	align-content: center;
 
 	position: absolute;
-	display: inline-block;
+	display: block;
 }
 
 .title-header{
 
-	display: flex;
-	justify-items: center;
+	padding-top: 250px;
 	align-items: center;
+	color: rgba(255, 255, 255, 1);
+
+}
+
+body{
+
+	background-color: black;
+	
+
+}
+.jouer{
+
+	color: white;
+	padding-top: ;
 
 }

@@ -6,14 +6,15 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<title>Exellia - Pvp Faction moddé</title>
 </head>
-<body>
-	<div class="navbar">
+<div class="navbar">
 		<?php include 'includes/navbar.php';?>
 	</div>
 	<header class="header">
 
-		<h1 class="title-header">Bienvenue sur Exellia</h1>
+		<h1 class="title-header" align="center">Bienvenue sur Exellia</h1>
 
-	</header>
+	</header><br>
+<body>
+	<h2 class="jouer">Jouer</h2>
 </body>
 </html>
