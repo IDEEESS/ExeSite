@@ -50,7 +50,6 @@ li:hover{
 	transition-duration: 0.125s;
 	background-color: #434343;
 	border-radius: 10px;
-	text-decoration: underline #1C394F;
 
 }
 
@@ -97,6 +96,61 @@ body{
 .jouer{
 
 	color: white;
-	padding-top: ;
+	padding-top: 700px;
+	font-size: 50px;
+	padding-bottom: 75px;
+
+}
+
+.redirectDownload{
+
+	margin: auto;
+	justify-items: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+	background-color: #CB7E00;
+	border: solid #CB7E00 ;
+	width: 250px ;
+	height: 65px;
+	border-radius: 15px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	font-size: 24px;
+
+}
+
+.redirectDownload:hover{
+
+	transition-duration: 0.125s;
+	border-radius: 25px;
+	background-color: #EA9100;
+	border: solid #EA9100 ;
+
+}
+
+.article1{
+
+	color: white;
+	border-radius: 10px;
+	background-color: #2E2E2E ;
+	width: 25%;
+	height: 50%;
+	text-align: justify;
+	box-shadow: 10px 5px 5px #232323;
+	padding: 20px;
+	margin: 10px;
+
+}
+
+hr{
+
+	color: white;
+	width: 700px;
+	margin: auto;
+	padding: auto;
 
 }
